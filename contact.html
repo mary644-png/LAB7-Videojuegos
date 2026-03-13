@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto Gamer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="contact-page">
@@ -22,50 +19,23 @@
             <h1>Habla con nosotros</h1>
             <p>
                 ¿Quieres recomendarnos un juego, reportar un bug o colaborar en contenido?
-                Envia tu mensaje y te responderemos pronto.
+                Usa nuestros canales directos y te responderemos pronto.
             </p>
         </div>
     </header>
 
     <main class="contact-layout">
-        <section class="card info-card reveal">
+        <section class="card info-card">
             <h2>Canales de contacto</h2>
             <ul class="contact-list">
-                <li><strong>Email:</strong> soporte@zonaarcade.com</li>
-                <li><strong>Discord:</strong> ZonaArcade#9001</li>
-                <li><strong>Twitch:</strong> twitch.tv/zonaarcade</li>
+                <li><strong>Email:</strong> soporte@zonaVideojuegos.com</li>
+                <li><strong>Discord:</strong> ZonaVideojuegos#9001</li>
+                <li><strong>Twitch:</strong> twitch.tv/zonaVideojuegos</li>
                 <li><strong>Horario:</strong> Lunes a Viernes, 9:00 - 18:00</li>
             </ul>
-            <p class="note">Respondemos primero mensajes relacionados con eventos y torneos.</p>
         </section>
 
-        <section class="card form-card reveal delay-1">
-            <h2>Formulario</h2>
-            <form id="contactForm" novalidate>
-                <label for="nombre">Nombre de jugador</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ej: PixelHunter" required>
-
-                <label for="correo">Correo electronico</label>
-                <input type="email" id="correo" name="correo" placeholder="tu@email.com" required>
-
-                <label for="tema">Tema</label>
-                <select id="tema" name="tema" required>
-                    <option value="">Selecciona una opcion</option>
-                    <option value="sugerencia">Sugerencia de videojuego</option>
-                    <option value="soporte">Soporte tecnico</option>
-                    <option value="alianza">Alianza o colaboracion</option>
-                    <option value="torneo">Torneos y eventos</option>
-                </select>
-
-                <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuentanos como podemos ayudarte..." required></textarea>
-
-                <button type="submit">Enviar mensaje</button>
-                <p id="formStatus" class="status" aria-live="polite"></p>
-            </form>
-        </section>
     </main>
 
-    <script src="script.js"></script>
 </body>
 </html>
